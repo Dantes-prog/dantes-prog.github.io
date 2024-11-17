@@ -27,13 +27,14 @@ thead a:hover{
     text-decoration: underline;
 }
 #row1{
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .55);
     margin-left: 50px;
     border-radius: 5px;
 }
 #row1 img:hover{
     cursor: grab;
-    border: 3px solid rgba(255, 255, 255, .2);
+    border: 3px solid rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .3);
 }
 #itemnames{
     border: none;
