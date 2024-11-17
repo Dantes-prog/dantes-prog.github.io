@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand - Login</title>
+    <link rel="stylesheet" href="/css/login2.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="Wrapper" style="display: flex; text-align: center;">
+        <form action="/php/login.php" method="post">
+            <h1>Login</h1>
+            <br>
+            <div class="input-box">
+                <i class='bx bxs-user'></i>
+                <input type="text" placeholder="Username or E-Mail" required maxlength="99">
+            </div>
+            <br>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt' ></i>
+                <input type="password" placeholder="Password" required minlength="8">
+            </div>
+            <br>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <br>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link" style="text-align: center;">
+                <p>Dont have an account yet? <a href="signup.html">Register now!</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

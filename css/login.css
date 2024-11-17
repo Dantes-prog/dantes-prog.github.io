@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: wheat;
+    text-align: center;
+    background: url('/assets/images/background.png') no-repeat;
+}
+thead a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+thead a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
